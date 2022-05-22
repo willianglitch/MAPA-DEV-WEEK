@@ -1,0 +1,27 @@
+
+.header{
+    height: 65px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.header-title h1{
+    color: rgb(164, 23, 230);
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.header-title span{
+    color: rgb(34, 197, 184);
+    font-size: 40px;
+}
+.header-img img{
+    padding-right: 10px;
+}
+.title{
+    font-family:'ssf4';
+    font-size: 35px;
+}
