@@ -7,13 +7,15 @@
 
     --cor-azul-principal: #0271F7;
     --cor-azul-media: #d3ffff;
-    --cor-azul-fraca: #8fbff8;
+    --cor-azul-fraca: #483D8BBB;
 
     --cor-roxa-fraca: #c2c2f1;
 
     --cor-titulo-fraco: #faefd8;
-    --cor-titulo-forte: #f77a2c;
+    --cor-titulo-forte: #B8860B;
 
     --cor-padrao: #ffffff;
     --cor-secundaria: #000000;
+
+    --cor-fundo:#696969;
 }
