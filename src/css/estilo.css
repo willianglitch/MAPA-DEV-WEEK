@@ -21,7 +21,6 @@ main{
 .title{
     z-index: 1;
     text-align: center;
-    
     font-size: 60px;
     color: var(--cor-secundaria);
     text-transform: uppercase;
@@ -135,9 +134,8 @@ main{
 }
 .personagens-organização .lista-de-personagens .personagem.selecionado-02 .tag{
     display: block;
-    animation: c-glowing-red .3s ease-in-out infinite;
+    animation: text-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;
-    border: none;
 }
 .footer{
     display: flex;
