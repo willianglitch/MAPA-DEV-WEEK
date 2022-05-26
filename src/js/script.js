@@ -20,12 +20,17 @@ const pokemons = document.querySelectorAll('.pokemon')
 pokemons.forEach((pokemon) =>{
     pokemon.addEventListener('mouseenter', () =>{
 
+        const idSelecionado = pokemon.attributes.id.value
+
+        if(idSelecionado === 'toxtricity'){
+            return;
+        }
         const pokemonSelecionado = document.querySelector('.selecionado')
         pokemonSelecionado.classList.remove('selecionado')
         pokemon.classList.add('selecionado')
 
 
-        const idSelecionado = pokemon.attributes.id.value
+        
         // console.log(idSelecionado)
         const imagemPokemonGrande = document.getElementById('pokemon-jogador-01')
         imagemPokemonGrande.src = `./src/assets/${idSelecionado}.png`
