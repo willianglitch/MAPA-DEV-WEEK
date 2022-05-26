@@ -20,11 +20,10 @@ const pokemons = document.querySelectorAll('.pokemon')
 pokemons.forEach((pokemon) =>{
     pokemon.addEventListener('mouseenter', () =>{
 
-        const idSelecionado = pokemon.attributes.id.value
+        const idSelecionado = pokemon.attributes.id.value;
 
-        if(idSelecionado === 'toxtricity'){
-            return;
-        }
+        if(idSelecionado === 'toxtricity')return;
+
         const pokemonSelecionado = document.querySelector('.selecionado')
         pokemonSelecionado.classList.remove('selecionado')
         pokemon.classList.add('selecionado')
@@ -36,11 +35,11 @@ pokemons.forEach((pokemon) =>{
         imagemPokemonGrande.src = `./src/assets/${idSelecionado}.png`
         // console.log(imagemPokemonGrande)
         const nomePokemonGrande = document.getElementById('nome-pokemon-grande')
-        nomePokemonGrande.innerHTML
+        nomePokemonGrande.innerHTML;
         //console.log(nomePokemonGrande)
 
-        const nomePokemonMudar = pokemon.getAttribute('data-name')
-        nomePokemonGrande.innerHTML = nomePokemonMudar
+        const nomePokemonMudar = pokemon.getAttribute('data-name');
+        nomePokemonGrande.innerHTML = nomePokemonMudar;
         
     })
 })
