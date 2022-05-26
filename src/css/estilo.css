@@ -61,7 +61,7 @@ main{
     width: 100%;
     font-size: 27px;
 }
-.selecao-personagem .personagem-grande.personagem-jogador-01 .nome::before{
+.selecao-personagem .personagem-grande.pokemon-jogador-01 .nome::before{
     background-color: var(--cor-titulo-forte);
 }
 .selecao-personagem .personagem-grande.personagem-jogador-02 .nome::before{
@@ -83,7 +83,7 @@ main{
     width: 100%;
     border-radius: 10px;
 }
-.personagens-organização .lista-de-personagens .personagem{
+.personagens-organização .lista-de-personagens .pokemon{
     border: solid 2px var(--cor-azul-media);
     background-color: var(--cor-azul-fraca);
     width: 30%;
@@ -94,27 +94,27 @@ main{
     position: relative;
     transition: 0.15s ease-in-out;
 }
-.personagens-organização .lista-de-personagens .personagem.selecionado{
+.personagens-organização .lista-de-personagens .pokemon.selecionado{
     border: solid 2px var(--cor-azul-principal);
     animation: c-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
 }
-.personagens-organização .lista-de-personagens .personagem.selecionado-02{
+.personagens-organização .lista-de-personagens .pokemon.selecionado-02{
     border: solid 2px var(--cor-vermelha-principal);
     animation: c-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;
 }
-.personagens-organização .lista-de-personagens .personagem:hover{
+.personagens-organização .lista-de-personagens .pokemon:hover{
     animation: c-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
     transform: scale(1.07);
     z-index: 2;
 }
-.personagens-organização .lista-de-personagens .personagem.selecionado-02:hover{
+.personagens-organização .lista-de-personagens .pokemon.selecionado-02:hover{
     animation: c-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;
 }
-.personagens-organização .lista-de-personagens .personagem .tag{
+.personagens-organização .lista-de-personagens .pokemon .tag{
     display: none;
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
@@ -127,12 +127,12 @@ main{
     animation: text-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
 }
-.personagens-organização .lista-de-personagens .personagem.selecionado .tag{
+.personagens-organização .lista-de-personagens .pokemon.selecionado .tag{
     display: block;
     animation: text-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
 }
-.personagens-organização .lista-de-personagens .personagem.selecionado-02 .tag{
+.personagens-organização .lista-de-personagens .pokemon.selecionado-02 .tag{
     display: block;
     animation: text-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;

@@ -14,5 +14,21 @@ temos que :
 -- alterar a imagem personagem jogador 01 
 -- alterar o nome personagem jogador 01
 */
-const lucario = document.getElementById('lucario')
-console.log(lucario)
+
+const pokemons = document.querySelectorAll('.pokemon')
+
+pokemons.forEach((pokemon) =>{
+    pokemon.addEventListener('mouseenter', () =>{
+
+        const pokemonSelecionado = document.querySelector('.selecionado')
+        pokemonSelecionado.classList.remove('selecionado')
+        pokemon.classList.add('selecionado')
+
+
+        const idSelecionado = pokemon.attributes.id.value
+        console.log(idSelecionado)
+        const imagemPokemonGrande = document.getElementById('pokemon-jogador-01')
+        imagemPokemonGrande.src = `./src/assets/${idSelecionado}.png`
+        console.log(imagemPokemonGrande)
+    })
+})
