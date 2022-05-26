@@ -61,7 +61,7 @@ main{
     width: 100%;
     font-size: 27px;
 }
-.selecao-personagem .personagem-grande.pokemon-jogador-01 .nome::before{
+.selecao-personagem .personagem-grande.personagem-jogador-01 .nome::before{
     background-color: var(--cor-titulo-forte);
 }
 .selecao-personagem .personagem-grande.personagem-jogador-02 .nome::before{

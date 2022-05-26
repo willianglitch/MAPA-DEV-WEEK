@@ -26,9 +26,16 @@ pokemons.forEach((pokemon) =>{
 
 
         const idSelecionado = pokemon.attributes.id.value
-        console.log(idSelecionado)
+        // console.log(idSelecionado)
         const imagemPokemonGrande = document.getElementById('pokemon-jogador-01')
         imagemPokemonGrande.src = `./src/assets/${idSelecionado}.png`
-        console.log(imagemPokemonGrande)
+        // console.log(imagemPokemonGrande)
+        const nomePokemonGrande = document.getElementById('nome-pokemon-grande')
+        nomePokemonGrande.innerHTML
+        //console.log(nomePokemonGrande)
+
+        const nomePokemonMudar = pokemon.getAttribute('data-name')
+        nomePokemonGrande.innerHTML = nomePokemonMudar
+        
     })
 })
