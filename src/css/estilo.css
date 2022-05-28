@@ -138,13 +138,11 @@ main{
     animation-direction: alternate;
 }
 .footer{
-    margin-top: 50px;
     display: flex;
-    text-align: center;
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin-bottom: 20px;
-}
-.footer h3{
-    padding-top: 20px;
+    height: 85px;
+    width: 100%;
+    margin-top: 15px;
 }

@@ -1,12 +1,13 @@
 
 .header{
     height: 65px;
+    width: 100%;
     background-color: #000;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: absolute;
     border: 2px #FFF;
 }
 .header-title h1{

@@ -29,14 +29,14 @@
         display: none;
     }
     .footer{
-        margin-top: 70px;
+      
        }
 }
 @media (max-width: 360px){
     .title{
         font-size: 19px;
        }
-    .footer{
+    /* .footer{
         margin-top: 80px;
-       }
+       } */
     }
