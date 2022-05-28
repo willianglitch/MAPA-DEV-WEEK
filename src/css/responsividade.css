@@ -28,15 +28,13 @@
     .selecao-personagem .personagem-grande{
         display: none;
     }
-    .footer{
-      
-       }
+    
 }
 @media (max-width: 360px){
     .title{
         font-size: 19px;
        }
-    /* .footer{
-        margin-top: 80px;
-       } */
+    .footer{
+        margin-top: 0px;
+       }
     }
