@@ -28,6 +28,9 @@
     .selecao-personagem .personagem-grande{
         display: none;
     }
+    .footer{
+        height: 50px;
+    }
     
 }
 @media (max-width: 360px){
